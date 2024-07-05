@@ -1,0 +1,8 @@
+[build]
+  publish = "." # Zaktualizuj to zgodnie ze ścieżką do twojego folderu publikacji, np. "." jeśli index.html jest w głównym katalogu
+
+[[redirects]]
+  from = "/*"
+  to = "/wp.html"
+  status = 200
+
